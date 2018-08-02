@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#Script will return results from command line arguments (DNS Record Type & Domain), e.g python ns.py a google.com
 import requests
 import sys
 record = str(sys.argv[1])
