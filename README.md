@@ -1,2 +1,2 @@
 # scripts
-Collection of Python Scripts created to perform different functions.
+Collection of Python Scripts I've created to perform different tasks
