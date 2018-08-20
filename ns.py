@@ -2,7 +2,7 @@
 import requests
 import sys
 record = str(sys.argv[1]) # commandline input for the specific record type (A|AAAA|CNAME|MX|NS|PTR|SOA|TXT).
-domain = str(sys.argv[2]) # command line input for the domain name you would like to grav the records for.
+domain = str(sys.argv[2]) # command line input for the domain name you would like to grab the records for.
 response = requests.get("https://dns-api.org//%s//%s" %(record,domain)) # Querys an API to run a lookup on the domain for the specific record type.
 status = (response.status_code)
 if status == int(200):
