@@ -1,4 +1,4 @@
-# scripts
+# Scripts
 Collection of Python Scripts I've created to perform different tasks.
 
 - cv.py - Converts an XLS file selected via file dialog and saves the output CSV file to a pre-defined location.
